@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Colors — from design.md Tokens: Colors */
+  --color-forest-depths: #122314;
+  --color-moss-shadow: #273f2b;
+  --color-lichen-sage: #7e8371;
+  --color-pale-fern: #b7bda5;
+  --color-electric-sprout: #68ef3f;
+  --color-deep-verdant: #26a200;
+  --color-sprout-wash: #e7f9dd;
+  --color-mist-green: #d9deca;
+  --color-onyx-olive: #30322a;
+  --color-pure-white: #ffffff;
+  --color-bone-white: #f2f5eb;
+  --color-soft-mist: #dcdfe3;
+  --color-cool-stone: #d6d6d6;
+  --color-carbon: #222222;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Fonts — aliases into next/font CSS variables set on <body> in Task 5 */
+  --font-ozik: var(--font-boldonse), ui-sans-serif, system-ui, sans-serif;
+  --font-aeonik: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-instrument-serif: var(--font-serif-instrument), ui-serif, Georgia, serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Type scale — from design.md Type Scale table (size + line-height + letter-spacing) */
+  --text-caption: 12px;
+  --text-caption--line-height: 1.5;
+  --text-caption--letter-spacing: -0.036px;
+  --text-body: 14px;
+  --text-body--line-height: 1.5;
+  --text-body--letter-spacing: -0.042px;
+  --text-body-md: 16px;
+  --text-body-md--line-height: 1.5;
+  --text-body-md--letter-spacing: -0.496px;
+  --text-subheading: 18px;
+  --text-subheading--line-height: 1.5;
+  --text-subheading--letter-spacing: -0.378px;
+  --text-heading-sm: 20px;
+  --text-heading-sm--line-height: 1.43;
+  --text-heading-sm--letter-spacing: -0.3px;
+  --text-heading: 24px;
+  --text-heading--line-height: 1.33;
+  --text-heading--letter-spacing: -0.36px;
+  --text-heading-lg: 32px;
+  --text-heading-lg--line-height: 1.2;
+  --text-heading-lg--letter-spacing: -0.672px;
+  --text-display: 40px;
+  --text-display--line-height: 1.2;
+  --text-display--letter-spacing: -1.24px;
+  --text-display-xl: 56px;
+  --text-display-xl--line-height: 0.86;
+  --text-display-xl--letter-spacing: -0.784px;
+  --text-display-2xl: 80px;
+  --text-display-2xl--line-height: 0.9;
+  --text-display-2xl--letter-spacing: -0.8px;
+
+  /* Spacing — base unit becomes 1px so utility numbers map 1:1 to px
+     (p-8 = 8px, gap-24 = 24px), matching design.md's px-named spacing scale. */
+  --spacing: 1px;
+
+  /* Named radii — from design.md Components / Border Radius */
+  --radius-nav: 28px;
+  --radius-cards: 20px;
+  --radius-badges: 28px;
+  --radius-buttons: 8px;
+  --radius-pill: 28px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-pure-white);
 }
