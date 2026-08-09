@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "about": "Tentang",
+    "services": "Layanan",
+    "projects": "Project",
+    "testimonials": "Testimoni",
+    "contact": "Kontak",
+    "cta": "Hubungi via WhatsApp"
+  },
+  "hero": {
+    "ctaPrimary": "Hubungi via WhatsApp",
+    "ctaSecondary": "Lihat Project"
+  },
+  "services": {
+    "heading": "Layanan Kami"
+  },
+  "projects": {
+    "heading": "Project Kami",
+    "filterAll": "Semua",
+    "filterResidential": "Residential",
+    "filterCorporate": "Corporate",
+    "filterIndoor": "Indoor",
+    "filterMaintenance": "Maintenance"
+  },
+  "testimonials": {
+    "heading": "Apa Kata Mereka"
+  },
+  "news": {
+    "heading": "Berita Terbaru",
+    "comingSoon": "Segera hadir"
+  },
+  "contact": {
+    "heading": "Mari",
+    "headingAccent": "Wujudkan",
+    "ctaPrimary": "Hubungi via WhatsApp"
+  },
+  "footer": {
+    "rights": "Seluruh hak cipta dilindungi."
+  }
+}

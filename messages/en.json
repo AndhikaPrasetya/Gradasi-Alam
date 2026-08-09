@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "cta": "Chat on WhatsApp"
+  },
+  "hero": {
+    "ctaPrimary": "Chat on WhatsApp",
+    "ctaSecondary": "View Projects"
+  },
+  "services": {
+    "heading": "Our Services"
+  },
+  "projects": {
+    "heading": "Our Projects",
+    "filterAll": "All",
+    "filterResidential": "Residential",
+    "filterCorporate": "Corporate",
+    "filterIndoor": "Indoor",
+    "filterMaintenance": "Maintenance"
+  },
+  "testimonials": {
+    "heading": "What Clients Say"
+  },
+  "news": {
+    "heading": "Latest News",
+    "comingSoon": "Coming soon"
+  },
+  "contact": {
+    "heading": "Let's",
+    "headingAccent": "Build It",
+    "ctaPrimary": "Chat on WhatsApp"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
