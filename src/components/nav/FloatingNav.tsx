@@ -14,7 +14,7 @@ export default async function FloatingNav() {
   ];
 
   return (
-    <header className="sticky top-24 z-50 mx-auto flex w-[calc(100%-48px)] max-w-[1200px] items-center justify-between gap-16 rounded-nav bg-onyx-olive/90 px-24 py-12 backdrop-blur">
+    <header className="sticky top-24 z-50 mx-auto flex w-[calc(100%-48px)] max-w-1200 items-center justify-between gap-16 rounded-nav bg-onyx-olive/90 px-24 py-12 shadow-[0_8px_32px_rgba(0,0,0,0.25)] backdrop-blur">
       <Link href="#" className="font-aeonik text-body-md font-semibold text-pure-white">
         Gradasi Alam
       </Link>

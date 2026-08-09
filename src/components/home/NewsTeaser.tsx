@@ -6,9 +6,9 @@ export default async function NewsTeaser({news}: {news: NewsItem[]}) {
 
   return (
     <section className="bg-bone-white px-24 py-80">
-      <div className="mx-auto max-w-[1200px]">
+      <div className="mx-auto max-w-1200">
         <div className="mb-40 flex items-center justify-between">
-          <h2 className="font-aeonik text-heading-lg font-semibold text-onyx-olive">{t('heading')}</h2>
+          <h2 className="font-aeonik text-heading-lg font-bold text-onyx-olive">{t('heading')}</h2>
           <span className="rounded-badges bg-sprout-wash px-12 py-4 text-caption font-medium text-moss-shadow">
             {t('comingSoon')}
           </span>

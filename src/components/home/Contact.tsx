@@ -6,7 +6,7 @@ export default async function Contact({contact}: {contact: SiteContent['contact'
 
   return (
     <section id="kontak" className="bg-forest-depths px-24 py-80 text-center text-pure-white">
-      <div className="mx-auto flex max-w-[640px] flex-col items-center gap-24">
+      <div className="mx-auto flex max-w-640 flex-col items-center gap-24">
         <h2 className="font-ozik text-display">
           {t('heading')} <span className="text-electric-sprout">{t('headingAccent')}</span>
         </h2>

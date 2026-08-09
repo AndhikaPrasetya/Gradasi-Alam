@@ -6,8 +6,8 @@ export default async function Testimonials({testimonials}: {testimonials: Testim
 
   return (
     <section id="testimoni" className="bg-pure-white px-24 py-80">
-      <div className="mx-auto max-w-[1200px]">
-        <h2 className="mb-40 text-center font-aeonik text-heading-lg font-semibold text-onyx-olive">
+      <div className="mx-auto max-w-1200">
+        <h2 className="mb-40 text-center font-aeonik text-heading-lg font-bold text-onyx-olive">
           {t('heading')}
         </h2>
         <div className="grid gap-24 md:grid-cols-3">
