@@ -5,6 +5,7 @@ import Services from '@/components/home/Services';
 import Projects from '@/components/home/Projects';
 import Testimonials from '@/components/home/Testimonials';
 import NewsTeaser from '@/components/home/NewsTeaser';
+import Contact from '@/components/home/Contact';
 
 export default async function HomePage({params}: {params: Promise<{locale: string}>}) {
   const {locale} = await params;
@@ -18,6 +19,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <Projects projects={content.projects} />
       <Testimonials testimonials={content.testimonials} />
       <NewsTeaser news={content.news} />
+      <Contact contact={content.contact} />
     </main>
   );
 }
