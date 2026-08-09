@@ -6,7 +6,8 @@ const en: SiteContent = {
     headline: 'We Create A Leisure',
     headlineAccent: 'Space',
     subhead:
-      'Since 2018, Gradasi Alam has designed and maintained gardens, vertical gardens, and green spaces for residential, corporate, and commercial properties across Indonesia.'
+      'Since 2018, Gradasi Alam has designed and maintained gardens, vertical gardens, and green spaces for residential, corporate, and commercial properties across Indonesia.',
+    subheadHighlight: 'vertical gardens'
   },
   about: {
     eyebrow: 'About Us',

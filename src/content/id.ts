@@ -6,7 +6,8 @@ const id: SiteContent = {
     headline: 'Kami Ciptakan Ruang',
     headlineAccent: 'Asri',
     subhead:
-      'Sejak 2018, Gradasi Alam merancang dan merawat taman, vertical garden, dan ruang hijau untuk hunian, korporat, dan komersial di seluruh Indonesia.'
+      'Sejak 2018, Gradasi Alam merancang dan merawat taman, vertical garden, dan ruang hijau untuk hunian, korporat, dan komersial di seluruh Indonesia.',
+    subheadHighlight: 'vertical garden'
   },
   about: {
     eyebrow: 'Tentang Kami',

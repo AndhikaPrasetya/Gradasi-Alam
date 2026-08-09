@@ -37,6 +37,7 @@ export interface SiteContent {
     headline: string;
     headlineAccent: string;
     subhead: string;
+    subheadHighlight: string;
   };
   about: {
     eyebrow: string;
