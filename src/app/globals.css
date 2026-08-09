@@ -65,7 +65,3 @@
   --radius-buttons: 8px;
   --radius-pill: 28px;
 }
-
-body {
-  background-color: var(--color-pure-white);
-}
